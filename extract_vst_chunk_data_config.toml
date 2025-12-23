@@ -1,5 +1,3 @@
-example_key = "example_value"
-
 [logging]
 console_logging_level = "DEBUG"                                                          # DEBUG, INFO, WARNING, ERROR
 file_logging_level = "DEBUG"                                                             # DEBUG, INFO, WARNING, ERROR
