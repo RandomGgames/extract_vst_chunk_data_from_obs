@@ -14,13 +14,10 @@ from datetime import datetime
 logger = logging.getLogger(__name__)
 
 """
-Python Script Template
+Extract VST Chunk Data from OBS
 
-Template includes:
-- Configurable logging via config file
-- Script run time at the end of execution
-- Error handling and cleanup
-- Total folder size log retention
+This script is designed to automatically find and extract the chunk data from the VST readir_standalone plugin for background noise removal.
+Instead of manually going into the json file directly, this script will automatically find the chunk data and copy it to the clipboard.
 """
 
 __version__ = "1.0.0"  # Major.Minor.Patch
